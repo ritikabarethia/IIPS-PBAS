@@ -1,0 +1,29 @@
+<?php
+require('../../admin/db_login.php');
+
+$db=mysql_connect('localhost', 'root', '') or die('Could not connect');
+mysql_select_db('pbas_db', $db) or die('');
+$user_id = $_SESSION['username'];
+$query = mysqli_query($con,"SELECT * from Teach_LSTP WHERE User_Id='$user_id'");
+
+if(mysql_num_rows($result)){
+    echo '{"testData":[';
+
+    $first = true;
+    $row=mysql_fetch_assoc($result);
+    while($row=mysql_fetch_row($result)){
+        //  cast results to specific data types
+
+        if($first) {
+            $first = false;
+        } else {
+            echo ',';
+        }
+        echo json_encode($row);
+    }
+    echo ']}';
+} else {
+    echo '[]';
+}
+
+mysql_close($db);

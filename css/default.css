@@ -1,0 +1,14 @@
+a {
+	color: #000000;
+}
+a:hover {
+	color: #FFFFFF;
+}
+/* footer */
+.social-circle li a {
+	background:#FFFFFF;
+}
+
+a.scrollup{
+	background:#35A49C;
+}
