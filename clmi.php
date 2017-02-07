@@ -75,11 +75,7 @@ function onlyAmpersand(event)
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="typeOfActivity" title="Please Enter Type of Activity" required="required"/>
                   					<br><label>Yearly/Semester wise responsibility</label>
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="responsibility" title="Please Enter Responsibility" required="required"/>
-		          					<br><label>API Score</label>
-				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="contApi" title="Please Enter API Score" required="required"/><br>
-		   		  					
-			      					
-			 					 </div><!--End of cont id for ajax -->
+		          					</div><!--End of cont id for ajax -->
 			 				</div>
 							       <input class="btn btn-primary" type="submit" value="Save" name="contributionSave" />
 									<select name="contr" style="width:225px" onChange="showUser(this.value, this.name)">

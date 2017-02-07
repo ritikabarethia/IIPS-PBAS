@@ -1,3 +1,4 @@
+
 <?php
 	session_start();
 	include('DBConnect.php');
@@ -44,9 +45,7 @@
 				    					<input type="text" class="form-control required" name="typeOfActivity" title="Please Enter The Type of Activity">
                   					<br><label>Average Hrs/Week</label>
 				    					<input type="text" class="form-control required" name="average" title="Please Enter Average Hrs/Week"/>
-		          					<br><label>API Score</label>
-				    					<input type="text" class="form-control required" name="api" title="Please Enter API Score"/><br>
-			 					  </div><!--End Of curr id for Ajax -->
+		          					</div><!--End Of curr id for Ajax -->
 			 				    </div>
 							   <input class="btn btn-primary" type="submit" value="Save" name="curricularSave" />
 									<select name="curr" onChange="showUser(this.value, this.name)">
@@ -73,9 +72,7 @@
 				    					<input type="text" class="form-control required" name="typeOfActivity" title="Please Enter Type of Activity">
                   					<br><label>Yearly/Semester wise responsibility</label>
 				    					<input type="text" class="form-control required" name="responsibility" title="Please Enter Responsibility"/>
-		          					<br><label>API Score</label>
-				    					<input type="text" class="form-control required" name="contApi" title="Please Enter API Score"/><br>
-		   		  					
+	
 			      					
 			 					 </div><!--End of cont id for ajax -->
 			 				</div>
