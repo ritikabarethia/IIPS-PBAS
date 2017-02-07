@@ -1,3 +1,4 @@
+
 <?php
 	session_start();
 	include('DBConnect.php');
@@ -80,9 +81,7 @@ function onlyAmpersand(event)
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="assignedDuties" title="Please Enter Assigned Duties" required="required"/>
 									<br><label>Extent to which carried out(%)</label> 
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="extent" title="Please Enter % Value" required="required"/>
-                  					<br><label>API Score</label>
-				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="api" title="Please Enter API Score" required="required"/>
-			 					 </div>
+                  					</div>
 			 				  </div>
 							       <input class="btn btn-primary" type="submit" value="Save" name="dutiesSave" />
 									<select name="dut" style="width: 0px" onChange="showUser(this.value, this.name)">

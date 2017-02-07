@@ -80,9 +80,7 @@ function onlyAmpersand(event)
 								 <div id="inno"><br />
 		          					<label>Short Description </label> 
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="description" title="Please Enter Description" required="required"/>
-                  					<br><label>API Score</label>
-				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="api" title="Please Enter API Score" required="required"/>
-			 					 </div>
+                  					</div>
 			 				</div>
 							       <input class="btn btn-primary" type="submit" value="Save" name="innovationSave" />
 									<select name="desc" style="width: 150px" onChange="showUser(this.value, this.name)">
