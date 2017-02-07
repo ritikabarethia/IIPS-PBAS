@@ -78,9 +78,7 @@ function onlyAmpersand(event)
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="typeOfActivity" title="Please Enter The Type of Activity" required="required"/>
                   					<br><label>Average Hrs/Week</label>
 				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="average" title="Please Enter Average Hrs/Week" required="required"/>
-		          					<br><label>API Score</label>
-				    					<input type="text" class="form-control required" onkeypress="return onlyAmpersand(event)" name="api" title="Please Enter API Score" required="required" /><br>
-			 					  </div><!--End Of curr id for Ajax -->
+		          					</div><!--End Of curr id for Ajax -->
 			 				    </div>
 							   <input class="btn btn-primary" type="submit" value="Save" name="curricularSave" />
 									<select name="curr" style="width:225px" onChange="showUser(this.value, this.name)">
